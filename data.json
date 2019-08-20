@@ -1,0 +1,23 @@
+[
+   {
+      "model": "buoy_api.symptom",
+      "pk": 1,
+      "fields": {
+         "title": "sore throat"
+      }
+   },
+   {
+      "model": "buoy_api.symptom",
+      "pk": 2,
+      "fields": {
+         "title": "itchy rash"
+      }
+   },
+   {
+      "model": "buoy_api.symptom",
+      "pk": 3,
+      "fields": {
+         "title": "sunburn"
+      }
+   }
+]

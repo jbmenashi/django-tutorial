@@ -1,0 +1,9 @@
+[
+{
+  "model": "buoy_api.symptom",
+  "pk": 1,
+  "fields": {
+    "title": "test"
+  }
+}
+]
