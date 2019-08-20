@@ -22,6 +22,6 @@ result_resource = ResultResource()
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^symptoms/', include(symptom_resource.urls)),
+    url(r'^api/', include(symptom_resource.urls)),
     url(r'^results/', include(result_resource.urls))
 ]
