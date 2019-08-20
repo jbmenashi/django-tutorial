@@ -13,9 +13,15 @@ Including another URLconf
     1. Import the include() function: from django.urls import include, path
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
+from django.conf.urls import url, include
 from django.contrib import admin
-from django.urls import path
+from buoy_api.resources import SymptomResource, ResultResource
+
+symptom_resource = SymptomResource()
+result_resource = ResultResource()
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
+    url(r'^admin/', admin.site.urls),
+    url(r'^symptoms/', include(symptom_resource.urls)),
+    url(r'^results/', include(result_resource.urls))
 ]
