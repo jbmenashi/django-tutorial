@@ -3,7 +3,282 @@
   "model": "buoy_api.symptom",
   "pk": 1,
   "fields": {
-    "title": "test"
+    "title": "sore throat"
+  }
+},
+{
+  "model": "buoy_api.symptom",
+  "pk": 2,
+  "fields": {
+    "title": "itchy rash"
+  }
+},
+{
+  "model": "buoy_api.symptom",
+  "pk": 3,
+  "fields": {
+    "title": "runny nose"
+  }
+},
+{
+  "model": "buoy_api.result",
+  "pk": 1,
+  "fields": {
+    "title": "common cold",
+    "frequency": 1,
+    "symptom": 1
+  }
+},
+{
+  "model": "buoy_api.result",
+  "pk": 2,
+  "fields": {
+    "title": "viral throat infection",
+    "frequency": 1,
+    "symptom": 1
+  }
+},
+{
+  "model": "buoy_api.result",
+  "pk": 3,
+  "fields": {
+    "title": "middle ear infection",
+    "frequency": 1,
+    "symptom": 1
+  }
+},
+{
+  "model": "buoy_api.result",
+  "pk": 4,
+  "fields": {
+    "title": "seasonal allergies",
+    "frequency": 1,
+    "symptom": 1
+  }
+},
+{
+  "model": "buoy_api.result",
+  "pk": 5,
+  "fields": {
+    "title": "strep throat",
+    "frequency": 1,
+    "symptom": 1
+  }
+},
+{
+  "model": "buoy_api.result",
+  "pk": 6,
+  "fields": {
+    "title": "mononucleosis infection",
+    "frequency": 1,
+    "symptom": 1
+  }
+},
+{
+  "model": "buoy_api.result",
+  "pk": 7,
+  "fields": {
+    "title": "bronchitis",
+    "frequency": 1,
+    "symptom": 1
+  }
+},
+{
+  "model": "buoy_api.result",
+  "pk": 8,
+  "fields": {
+    "title": "acid reflux disease",
+    "frequency": 1,
+    "symptom": 1
+  }
+},
+{
+  "model": "buoy_api.result",
+  "pk": 9,
+  "fields": {
+    "title": "acute bacterial sinusitis",
+    "frequency": 1,
+    "symptom": 1
+  }
+},
+{
+  "model": "buoy_api.result",
+  "pk": 10,
+  "fields": {
+    "title": "sunburn",
+    "frequency": 1,
+    "symptom": 2
+  }
+},
+{
+  "model": "buoy_api.result",
+  "pk": 11,
+  "fields": {
+    "title": "irritant contact dermatitis",
+    "frequency": 1,
+    "symptom": 2
+  }
+},
+{
+  "model": "buoy_api.result",
+  "pk": 12,
+  "fields": {
+    "title": "non-specific dermatitis (skin inflammation)",
+    "frequency": 1,
+    "symptom": 2
+  }
+},
+{
+  "model": "buoy_api.result",
+  "pk": 13,
+  "fields": {
+    "title": "hives",
+    "frequency": 1,
+    "symptom": 2
+  }
+},
+{
+  "model": "buoy_api.result",
+  "pk": 14,
+  "fields": {
+    "title": "benign skin growth",
+    "frequency": 1,
+    "symptom": 2
+  }
+},
+{
+  "model": "buoy_api.result",
+  "pk": 15,
+  "fields": {
+    "title": "allergic reaction to poison ivy/oak/sumac",
+    "frequency": 1,
+    "symptom": 2
+  }
+},
+{
+  "model": "buoy_api.result",
+  "pk": 16,
+  "fields": {
+    "title": "chronic hepatitis c",
+    "frequency": 1,
+    "symptom": 2
+  }
+},
+{
+  "model": "buoy_api.result",
+  "pk": 17,
+  "fields": {
+    "title": "shingles (herpes zoster)",
+    "frequency": 1,
+    "symptom": 2
+  }
+},
+{
+  "model": "buoy_api.result",
+  "pk": 18,
+  "fields": {
+    "title": "perianal skin infection",
+    "frequency": 1,
+    "symptom": 2
+  }
+},
+{
+  "model": "buoy_api.result",
+  "pk": 19,
+  "fields": {
+    "title": "seborrheic dermatitis",
+    "frequency": 1,
+    "symptom": 2
+  }
+},
+{
+  "model": "buoy_api.result",
+  "pk": 20,
+  "fields": {
+    "title": "common cold",
+    "frequency": 1,
+    "symptom": 3
+  }
+},
+{
+  "model": "buoy_api.result",
+  "pk": 21,
+  "fields": {
+    "title": "chronic sinusitis",
+    "frequency": 1,
+    "symptom": 3
+  }
+},
+{
+  "model": "buoy_api.result",
+  "pk": 22,
+  "fields": {
+    "title": "non-allergic rhinitis",
+    "frequency": 1,
+    "symptom": 3
+  }
+},
+{
+  "model": "buoy_api.result",
+  "pk": 23,
+  "fields": {
+    "title": "chronic allergies",
+    "frequency": 1,
+    "symptom": 3
+  }
+},
+{
+  "model": "buoy_api.result",
+  "pk": 24,
+  "fields": {
+    "title": "normal congestion and runny nose",
+    "frequency": 1,
+    "symptom": 3
+  }
+},
+{
+  "model": "buoy_api.result",
+  "pk": 25,
+  "fields": {
+    "title": "mononucleosis infection",
+    "frequency": 1,
+    "symptom": 3
+  }
+},
+{
+  "model": "buoy_api.result",
+  "pk": 26,
+  "fields": {
+    "title": "viral infection of the larynx (voice box)",
+    "frequency": 1,
+    "symptom": 3
+  }
+},
+{
+  "model": "buoy_api.result",
+  "pk": 27,
+  "fields": {
+    "title": "chronic bronchitis",
+    "frequency": 1,
+    "symptom": 3
+  }
+},
+{
+  "model": "buoy_api.result",
+  "pk": 28,
+  "fields": {
+    "title": "hand-foot-and-mouth disease",
+    "frequency": 1,
+    "symptom": 3
+  }
+},
+{
+  "model": "buoy_api.result",
+  "pk": 29,
+  "fields": {
+    "title": "bronchiectasis",
+    "frequency": 1,
+    "symptom": 3
   }
 }
 ]

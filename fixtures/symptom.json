@@ -17,7 +17,7 @@
       "model": "buoy_api.symptom",
       "pk": 3,
       "fields": {
-         "title": "sunburn"
+         "title": "runny nose"
       }
    }
 ]
